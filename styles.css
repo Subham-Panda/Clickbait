@@ -436,6 +436,11 @@ a {
 		width: 70%;
 	}
 
+	.about-content {
+		font-size: 3.5rem;
+		margin-top: 20px;
+	}
+
 }
 
 @media screen and (max-width: 425px) {

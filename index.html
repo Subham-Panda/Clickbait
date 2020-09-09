@@ -15,7 +15,9 @@
 		<!-- <a href="#" class="nav-clickbait">Clickbait</a> -->
 		<div class="nav-options">
 			<a href="#main--1" class="nav-home">Home</a>
-			<a href="#main--about" class="nav-about">About</a>	
+			<a href="#main--about" class="nav-about">About</a>
+			<a href="#main--2" class="nav-about">Speakers</a>
+			<a href="#main--4" class="nav-about">Contact</a>
 		</div>	
 	</div>
 	<div id="fullpage">
@@ -91,7 +93,7 @@
 			</div>
 		</div>
 		<div class="section">
-			<div class="main-4">
+			<div class="main-4" id="main--4">
 				<div class="inner-main-4">
 					<div class="contact-heading">
 						<h1 class="contact-heading">Contact Us</h1>
@@ -144,8 +146,7 @@
 		// The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
 		$('html, body').animate({
 			scrollTop: $(hash).offset().top
-		}, 800, function(){
-		});
+		}, 800);
 		} // End if
 	});
 	});
