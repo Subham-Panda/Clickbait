@@ -169,17 +169,11 @@ a {
 	font-family: 'Montserrat';
 }
 
-.img-div {
+.speaker-img {
 	height: 300px;
 	width: 300px;
-	overflow: hidden;
 	border-radius: 50%;
 	margin-bottom: 10px;
-}
-
-.speaker-img {
-	width: 100%;
-	height: auto;
 }
 
 .company-logo {
@@ -418,7 +412,7 @@ a {
 	}
 
 	.heading-div {
-		margin-top: 50px;
+		margin-top: 90px;
 	}
 
 	.sponsors {
@@ -430,7 +424,7 @@ a {
 	}
 
 	.sponsor img {
-		height: 25rem;
+		height: 20rem;
 	}
 	
 	.matic {
